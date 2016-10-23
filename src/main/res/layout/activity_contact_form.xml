@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="6dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context="com.calamarasmtic.addcontact.ContactForm">
+
+    <EditText
+        android:id="@+id/etContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Nombre Completo"
+        android:inputType="text">
+    </EditText>
+
+    <DatePicker
+        android:id="@+id/dpFecha"
+        android:datePickerMode="spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etContactName"
+        style="@style/date_picker_theme"
+        android:layout_centerHorizontal="true">
+    </DatePicker>
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:inputType="text"
+        android:layout_below="@+id/dpFecha">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_below="@id/etTelefono">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="text"
+        android:layout_below="@id/etEmail">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/siguiente"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/etDescripcion"
+        android:clickable="true"
+        />
+
+
+
+</RelativeLayout>

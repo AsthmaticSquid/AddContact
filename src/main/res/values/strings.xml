@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AddContact</string>
+    <string name="titulo">Confirmar Datos</string>
+    <string name="nombre">Calamar Asmàtic</string>
+    <string name="fecha_nac">9/7/2005</string>
+    <string name="telefono">3299964</string>
+    <string name="email">calamarasmatic@gmail.com</string>
+    <string name="descripcion">living under the sea in a pineapple. It kills the previous tenant.</string>
+    <string name="text_fecha_nac">Fecha de nacimento:</string>
+    <string name="text_telefono">Teléfono:</string>
+    <string name="text_email">Email:</string>
+    <string name="text_descripcion">Descripción:</string>
+    <string name="edit_data">Editar Datos</string>
+    <string name="siguiente">Siguiente</string>
+</resources>
